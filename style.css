@@ -1,18 +1,29 @@
 :root {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
 }
 
 h1 {
-    font-size: 3rem;
-    text-align: center;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  margin-top: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
+label, input, button, ul {
+    margin: 30px;
+}
