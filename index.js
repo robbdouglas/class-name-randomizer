@@ -12,6 +12,8 @@ const students = [
   "Bita",
   "Laila",
   "Emanuela",
+  "Atef",
+  "Hamze",
 ];
 
 function getRandomStudents(students, numberOfStudents) {
