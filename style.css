@@ -23,7 +23,18 @@ h1 {
   align-items: center;
 }
 
+label,
+input,
+button {
+  margin: 10px;
+}
 
-label, input, button, ul {
-    margin: 30px;
+#studentsList {
+  list-style-type: none;
+  position: fixed;
+  right: 200px;
+}
+
+#studentsList li {
+  margin-bottom: 5px;
 }
